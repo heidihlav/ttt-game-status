@@ -42,6 +42,8 @@ def over?(board)
 end
 
 def winner(board)
-
+  position_taken?(board, index)
+  
 end
 
+# token = over?(board)
