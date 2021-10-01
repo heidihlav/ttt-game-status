@@ -42,11 +42,14 @@ def over?(board)
 end
 
 def winner(board)
-binding.pry
-  # token = won?(board)
-  # position_taken?(board, index)
-
-  # token[1]
+  if array = won?(board)
+  board[array[0]]
+  end
 end
 
 # token = over?(board)
+  # token = won?(board)
+  # position_taken?(board, index)
+    # token[1]
+
+
